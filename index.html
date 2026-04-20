@@ -1287,6 +1287,63 @@ footer {
   .vibe-pillars { grid-template-columns: 1fr; }
   .menu-tabs, .drinks-tabs { gap: 0.4rem; }
   .hero-pills { gap: 1rem; }
+
+  /* Hero mobile fixes */
+  #hero { min-height: 100svh; padding: 0 1rem; justify-content: center; }
+  .hero-content { padding: 0 1rem; width: 100%; }
+  .hero-tagline { font-size: 1rem; margin-bottom: 0.5rem; }
+  .hero-content img { height: 240px !important; margin: -20px auto -30px !important; }
+  .hero-sub { font-size: 0.88rem; margin-bottom: 1.8rem; }
+  .hero-ctas { flex-direction: column; align-items: center; gap: 0.6rem; }
+  .hero-ctas .btn { width: 100%; max-width: 280px; text-align: center; }
+  .hero-pills { gap: 0.7rem; margin-top: 2rem; padding-top: 1.5rem; flex-wrap: wrap; justify-content: center; }
+  .hero-pill { font-size: 0.6rem; }
+
+  /* Nav mobile */
+  #nav { padding: 0 1rem; height: 60px; }
+  #nav img { height: 40px !important; }
+
+  /* Trust strip */
+  #trust { padding: 1rem; }
+  .trust-inner { gap: 0; }
+  .trust-item { padding: 0.4rem 0.8rem; }
+  .trust-text { font-size: 0.6rem; }
+
+  /* Vibe section */
+  #vibe { padding: 4rem 1.2rem; }
+  .vibe-images { height: 280px; }
+  .vibe-badge { padding: 1rem 1.2rem; }
+  .vibe-badge-num { font-size: 1.8rem; }
+
+  /* Featured */
+  #featured { padding: 4rem 1.2rem; }
+
+  /* Menu */
+  #menu { padding: 4rem 1.2rem; }
+  .menu-tab { font-size: 0.6rem; padding: 0.45rem 0.8rem; }
+
+  /* Music */
+  #music { padding: 4rem 1.2rem; }
+  .happy-hour-box { padding: 1.4rem 1.5rem; }
+
+  /* Drinks */
+  #drinks { padding: 4rem 1.2rem; }
+
+  /* Events */
+  #events { padding: 4rem 1.2rem; }
+
+  /* Location */
+  .location-content { padding: 3rem 1.2rem; }
+
+  /* Footer */
+  footer { padding: 2.5rem 1.2rem 1.5rem; }
+  .footer-brand-tagline { font-size: 0.85rem; }
+}
+
+@media (max-width: 400px) {
+  .hero-content img { height: 200px !important; margin: -10px auto -20px !important; }
+  .hero-tagline { font-size: 0.85rem; }
+  .section-heading { font-size: 1.8rem; }
 }
 </style>
 </head>
